@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css?family=Gentium+Basic:400,400i,700,700i|Open+Sans:300,300i,400,400i,600,600i,700,700i&display=swap&subset=latin-ext');
+.gallery-image img {
+    width: 250px;
+    height: 250px;
+    display: block;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+header .header-banner {
+
+display: table;
+width: 100%;
+height: calc(70vh - 500px);
+}
+header h1 {
+
+font-family: "Gentium Basic", serif;
+font-weight: 700;
+font-style: bold;
+font-size: 60px;
+color: black;
+line-height: 40px;
+text-transform: uppercase;
+
+
+}
+
+header h2 {
+
+font-family: "Open Sans", sans-serif;
+font-weight: 300;
+font-size: 15px;
+font-style: italic;
+letter-spacing: 4px;
+color: black;
+text-transform: uppercase;
+
+}
+
+header .logo {
+
+display: table-cell;
+vertical-align: middle;
+text-align: center;
+padding: 10px 0 10px 0;
+
+}
+
+header nav ul {
+
+display: block;
+margin: 0 auto;
+text-align: center; /*IE*/
+width: fit-content;
+
+}
+
+header nav ul li {
+
+display: inline-block;
+padding: 16px 16px;
+
+}
+nav ul li a {
+
+font-family: "Open Sans", sans-serif;
+font-weight: 400;
+font-size: 18px;
+letter-spacing: 3px;
+color: #172029;
+text-transform: uppercase;
+text-decoration: none;
+
+}
+header hr {
+display: block;
+color: #4f5663;
+border-width: 2px;
+width: 30%;
+margin: 0 auto;
+margin-bottom: 5px;
+
+}
+
+header .pilt {
+background-image: url("food.jpg");
+width: 100%;
+height: calc(90vh - 500px);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;     
+
+}
+
+
+footer {
+
+width: calc(100% - 80px);
+padding: 40px 40px;
+background-color: #172029;
+margin-top: 20px;
+overflow: hidden;
+
+}
+
+footer ul {
+
+width: fit-content;
+float: left;
+padding-left: 0px;
+
+}
+
+footer ul li {
+
+display: block;
+padding: 0 0 1px 0;
+
+}
+
+footer ul li p {
+
+font-family: "Open Sans", sans-serif;
+font-weight: 300;
+font-size: 14px;
+letter-spacing: 1px;
+color: #ffffff;
+
+}
+
+.footer-sm {
+
+width: 50px;
+float: right;
+line-height: 2.5;
+}
+
+.footer-sm img {
+
+width: 100%;
+margin-bottom: 10px;
+margin-top: 10px;
+}
+
+
+
+.gallery-h2 {
+
+font-family: "Gentium Basic", sans-serif;
+font-weight: 600;
+font-size: 28px;
+letter-spacing: 2px;
+padding: 10px;
+color: #3a383d;
+text-transform: uppercase;
+text-align: left;
+
+}
+.Meist {
+    display: table;
+    border: none;
+}
+.Meist img{
+display: none;
+    
+}
+.Meist p {
+font-size: 20px;
+letter-spacing: 1,5px;
+padding: 10px;
+width: calc(100% - 80px);
+text-align: left;       
+}
+
+.gallery-image {
+display: flex;
+    justify-content: space-around;
+margin: 10px;
+position: relative;
+text-align: center;
+    -webkit-flex-basis: 50opx;
+-moz-flex-basis: 500px;
+flex-basis: 500px;
+
+} 
+.gallery-image p {
+   display: none;
+}
+.gallery-image:hover p{
+    display: block;
+    transition-delay: 1s;
+}
+
+.post-header {       
+
+/*kujundus*/
+
+font-family: "Open Sans", sans-serif;
+font-weight: 700;
+font-size: 22px;
+letter-spacing: 3px;
+line-height: 24px;
+color: #ffffff;
+text-transform: uppercase;
+text-shadow: 3px 3px 9px #111111;
+
+   /*positsioneerimine*/
+
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+
+}
+.gallery-links {
+
+display: flex;
+flex-flow: row wrap;
+display: -webkit-flex;
+-webkit-flex-flow: row wrap;
+display: -moz-flex;
+-moz-flex-flow: row wrap;
+justify-content: center;
+-o-flex-flow: row wrap;
+justify-content: center;
+
+}
+
+---------/*Arvuti ekraan*/--------
+
+@media only screen and (min-width: 950px) {   
+
+header .header-banner {
+
+      height: calc(100vh - 400px);
+
+}   
+
+header h1 a {
+
+      font-size: 80px;
+
+}  
+
+header h2 {
+
+      font-size: 24px;
+      margin-top: 20px;
+
+}
+
+header nav ul li {
+
+       padding: 16px 42px;
+
+}
+
+header hr {
+
+border: 0;
+clear:both;
+display: block;
+width: 30%;
+background-color:#FFFF00;
+height: 1px;
+
+}
+
+}
+
+
+@media only screen and (min-width: 350px) {
+hr {
+
+border: 0;
+clear:both;
+display: block;
+width: 30%;
+background-color:none;
+height: 1px;
+
+}
+
+.Meist img{
+display: block;
+float: right;
+width:450px;
+height:300px;
+margin:10px;
+border:2px solid gray;
+
+
+
+float:right;
+    
+}
+}
+
