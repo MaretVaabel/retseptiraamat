@@ -6,6 +6,13 @@
     border: 1px solid black;
     border-radius: 50%;
 }
+
+img#kokad {
+
+    display: none;
+    
+} 
+
 header .header-banner {
 
 display: table;
@@ -74,10 +81,15 @@ text-decoration: none;
 }
 
 hr#joon {
+    
+display: block;
+color: #4f5663;
+border-width: 2px;
+width: 50%;
+margin: 0 auto;
+margin-bottom: 5px;
 
-display: none;
-
-    }
+}
 
 header .pilt {
 background-image: url("food.jpg");
@@ -158,17 +170,7 @@ text-align: left;
     border: none;
 }
 
-img#kokad {
 
-display: block;
-float: right;
-width:450px;
-height:300px;
-margin:10px;
-border:2px solid gray;
-float:right;
-        
-}
 
 .Meist p {
 font-size: 20px;
@@ -232,9 +234,25 @@ justify-content: center;
 
 }
 
----------/*Arvuti ekraan*/--------
 
-@media only screen and (min-width: 950px) {   
+@media only screen and (min-width: 960px) {   
+
+img#kokad {
+
+display: block;
+float: right;
+width:450px;
+height:300px;
+margin:10px;
+border:2px solid gray;
+float:right;
+    }
+
+hr#joon {
+
+display: none;
+
+    }
 
 header .header-banner {
 
@@ -260,37 +278,14 @@ header nav ul li {
        padding: 16px 42px;
 
 }
-
-
-
-    
-
-
-}
-
-@media (max-width: 500px) {
-  
-img#kokad {
-
-    display: none;
-    
-} 
-    
-hr#joon {
-    
-display: block;
-color: #4f5663;
-border-width: 2px;
-width: 50%;
-margin: 0 auto;
-margin-bottom: 5px;
-
-}
-
 header nav ul li a {
 
-font-size: 14px;
+font-size: 24px;
     }
     
+     
 }
+
+    
+
 
