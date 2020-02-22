@@ -65,22 +65,19 @@ nav ul li a {
 
 font-family: "Open Sans", sans-serif;
 font-weight: 400;
-font-size: 16px;
+font-size: 18px;
 letter-spacing: 3px;
 color: #172029;
 text-transform: uppercase;
 text-decoration: none;
 
 }
-header .logo hr {
-display: block;
-color: #4f5663;
-border-width: 2px;
-width: 50%;
-margin: 0 auto;
-margin-bottom: 5px;
 
-}
+hr#joon {
+
+display: none;
+
+    }
 
 header .pilt {
 background-image: url("food.jpg");
@@ -161,7 +158,7 @@ text-align: left;
     border: none;
 }
 
-.Meist img{
+img#kokad {
 
 display: block;
 float: right;
@@ -264,22 +261,33 @@ header nav ul li {
 
 }
 
-header .logo hr {
 
-display: none;
 
-    }
     
 
 
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 600px) {
   
-main .Meist img{
+img#kokad {
 display: none;
     
-}  
+} 
+hr#joon {
+display: block;
+color: #4f5663;
+border-width: 2px;
+width: 50%;
+margin: 0 auto;
+margin-bottom: 5px;
+
+}
+
+header nav ul li a {
+
+font-size: 14px;
+    }
     
 }
 
