@@ -7,7 +7,7 @@
     border-radius: 50%;
 }
 
-img#kokad {
+.kokad {
 
     display: none;
     
@@ -80,7 +80,7 @@ text-decoration: none;
 
 }
 
-hr#joon {
+.joon {
     
 display: block;
 color: #4f5663;
@@ -235,7 +235,7 @@ justify-content: center;
 
 @media only screen and (min-width: 950px) {   
 
-img#kokad {
+.kokad {
 
 display: block;
 float: right;
@@ -246,7 +246,7 @@ border:2px solid gray;
 float:right;
     }
 
-hr#joon {
+.joon {
 
 display: none;
 
@@ -254,7 +254,7 @@ display: none;
 
 header .header-banner {
 
-      height: calc(100vh - 600px);
+      height: calc(100vh - 700px);
 
 }   
 
