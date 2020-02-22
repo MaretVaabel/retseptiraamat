@@ -72,11 +72,11 @@ text-transform: uppercase;
 text-decoration: none;
 
 }
-header hr {
+header .logo hr {
 display: block;
 color: #4f5663;
 border-width: 2px;
-width: 30%;
+width: 50%;
 margin: 0 auto;
 margin-bottom: 5px;
 
@@ -160,10 +160,19 @@ text-align: left;
     display: table;
     border: none;
 }
+
 .Meist img{
-display: none;
-    
+
+display: block;
+float: right;
+width:450px;
+height:300px;
+margin:10px;
+border:2px solid gray;
+float:right;
+        
 }
+
 .Meist p {
 font-size: 20px;
 letter-spacing: 1,5px;
@@ -255,44 +264,22 @@ header nav ul li {
 
 }
 
-header hr {
+header .logo hr {
 
-border: 0;
-clear:both;
-display: block;
-width: 30%;
-background-color:#FFFF00;
-height: 1px;
+display: none;
 
-}
-
-}
-
-
-@media only screen and (min-width: 350px) {
-hr {
-
-border: 0;
-clear:both;
-display: block;
-width: 30%;
-background-color:none;
-height: 1px;
-
-}
-
-.Meist img{
-display: block;
-float: right;
-width:450px;
-height:300px;
-margin:10px;
-border:2px solid gray;
-
-
-
-float:right;
+    }
     
+
+
 }
+
+@media only screen and (max-width: 400px) {
+  
+main .Meist img{
+display: none;
+    
+}  
+    
 }
 
