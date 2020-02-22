@@ -268,13 +268,16 @@ header nav ul li {
 
 }
 
-@media only screen and (max-width: 600px) {
+@media (max-width: 500px) {
   
 img#kokad {
-display: none;
+
+    display: none;
     
 } 
+    
 hr#joon {
+    
 display: block;
 color: #4f5663;
 border-width: 2px;
