@@ -184,9 +184,9 @@ display: flex;
 margin: 10px;
 position: relative;
 text-align: center;
-    -webkit-flex-basis: 50opx;
--moz-flex-basis: 500px;
-flex-basis: 500px;
+    -webkit-flex-basis: 400px;
+-moz-flex-basis: 400px;
+flex-basis: 400px;
 
 } 
 .gallery-image p {
